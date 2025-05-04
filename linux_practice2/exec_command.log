@@ -73,3 +73,15 @@
    73  touch exec_command.log
    74  ls
    75  history 300 > exec_command.log
+   76  cat exec_command.log
+   77  vi exec_command.log
+   78  git add -A
+   79  git status
+   80  git commit
+   81  git push origin working
+   82  rm -r .gitignore
+   83  ls -a
+   84  touch .gitignore
+   85  ls -A
+   86  vi .gitignore
+   87  history 300 > exec_command.log
