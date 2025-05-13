@@ -1,0 +1,87 @@
+    1  ls
+    2  cd home
+    3  ls
+    4  cd ::
+    5  cd ..
+    6  cd /root
+    7  ls
+    8  cd sever_lesson
+    9  ls
+   10  git status
+   11  ls
+   12  cd linux_practice2
+   13  ls
+   14  cd linux_practice2
+   15  ls
+   16  cd trash
+   17  ls
+   18  cd ..
+   19  cd ..
+   20  cd trush
+   21  cd trash
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd linux_practice2
+   26  cd trash
+   27  pwd
+   28  mv ~/sever_lesson/linux_practice2/linux_practice2/trash/gizumo{20..40}.md ~/sever_lesson/linux_practice2/trash/
+   29  ls
+   30  cd ..
+   31  cd ..
+   32  cd trash
+   33  ls
+   34  cd ..
+   35  ls
+   36  rm -r linux_practice2
+   37  ls
+   38  cd trash
+   39  ls
+   40  git add -A
+   41  git status
+   42  git commit
+   43  chcp 65001
+   44  locale
+   45  locale-gen ja_JP.UTF-8
+   46  export LANG=ja_JP.UTF-8
+   47  export LC_ALL=ja_JP.UTF-8
+   48  locale
+   49  git commit
+   50  cd ..
+   51  ls
+   52  mkdir .gitignore
+   53  ls
+   54  ls
+   55  ls
+   56  touch .gitignore
+   57  ls
+   58  ls -a
+   59  git add -A
+   60  git commit
+   61  cd .gitignore
+   62  ls
+   63  cd ..
+   64  vim .gitignore
+   65  cd .gitignore
+   66  vi .gitignore
+   67  git status
+   68  cat .gitignore
+   69  git add -A
+   70  git status
+   71  git commit
+   72  cd ..
+   73  touch exec_command.log
+   74  ls
+   75  history 300 > exec_command.log
+   76  cat exec_command.log
+   77  vi exec_command.log
+   78  git add -A
+   79  git status
+   80  git commit
+   81  git push origin working
+   82  rm -r .gitignore
+   83  ls -a
+   84  touch .gitignore
+   85  ls -A
+   86  vi .gitignore
+   87  history 300 > exec_command.log
